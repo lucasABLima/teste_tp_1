@@ -35,7 +35,7 @@ Instal Tape
 npm install tape
 ```
 
-Instal body-parser to test HTTP requests
+Instal body-parser, express and supertest to test HTTP requests
 ```
 npm install supertest express body-parser 
 ```
