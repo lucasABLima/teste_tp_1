@@ -1,0 +1,26 @@
+{
+  "name": "teste_tp",
+  "version": "1.0.0",
+  "description": "Simple calculator to implement tests with Tape",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lucasABLima/teste_tp_1.git"
+  },
+  "keywords": [
+    "teste"
+  ],
+  "author": "Lucas Lima",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lucasABLima/teste_tp_1/issues"
+  },
+  "homepage": "https://github.com/lucasABLima/teste_tp_1#readme",
+  "dependencies": {
+    "hapi": "^18.1.0",
+    "tape": "^5.5.2"
+  }
+}
