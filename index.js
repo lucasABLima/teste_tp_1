@@ -11,21 +11,14 @@ const server = Hapi.Server({
     port: port
 });
 
+//Routes
+require('./routes/routes')(server);
+
 //Start server
 const init = async () => {
     await server.start();
     console.log("Server up! Port: " + port);
-}//About
-    server.route({
-        method: 'GET',
-        path: '/calculator/about',
-        handler: function (request, h) {
-    
-            var data = {
-                message: 'API calculator'
-            };
-    
-            return data;
-        }
-    });//Start App
+}
+
+//Start App
 init();
