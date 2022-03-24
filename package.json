@@ -4,7 +4,7 @@
   "description": "Simple calculator to implement tests with Tape",
   "main": "index.js",
   "scripts": {
-    "test": "node index.test"
+    "test": "node index.test | tap-spec"
   },
   "repository": {
     "type": "git",
@@ -20,7 +20,11 @@
   },
   "homepage": "https://github.com/lucasABLima/teste_tp_1#readme",
   "dependencies": {
+    "body-parser": "^1.19.2",
+    "express": "^4.17.3",
     "hapi": "^18.1.0",
+    "supertest": "^6.2.2",
+    "tap-spec": "^2.2.2",
     "tape": "^5.5.2"
   }
 }
